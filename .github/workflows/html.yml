@@ -18,6 +18,7 @@ jobs:
         with:
           args: >- # allows you to break string into multiple lines
             README.md
+            --metadata pagetitle="「一个人的书房」捐赠列表"
             -s
             -o "./html/index.html"
 
