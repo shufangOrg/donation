@@ -12,9 +12,15 @@ jobs:
             --standalone
             --output=./html/index.html
             README.md
+
+     - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./html
-          cname: i.shufang.org 
+          cname: i.shufang.org
