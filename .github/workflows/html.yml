@@ -15,7 +15,7 @@ jobs:
         with:
           args: >- # allows you to break string into multiple lines
             --standalone
-            --output=./html/index.html
+            --output "./html/index.html"
             README.md
 
       - name: deploy
