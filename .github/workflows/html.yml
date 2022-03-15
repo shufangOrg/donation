@@ -14,9 +14,9 @@ jobs:
       - uses: docker://pandoc/core:2.9
         with:
           args: >- # allows you to break string into multiple lines
-            --standalone
-            --output "./html/index.html"
             README.md
+            -s
+            -o "./html/index.html"
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
