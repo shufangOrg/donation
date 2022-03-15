@@ -11,6 +11,9 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: create html folder
+        run: mkdir html
+
       - uses: docker://pandoc/core:2.9
         with:
           args: >- # allows you to break string into multiple lines
