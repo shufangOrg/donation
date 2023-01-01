@@ -1,6 +1,6 @@
 # 「一个人的书房」捐赠列表
 
-此列表最近更新时间：2022 年 12 月 06 日 15:00
+此列表最近更新时间：2023 年 01 月 01 日 10:00
 
 介绍及注意事项 [https://shufang.org/donation.html](https://shufang.org/donation.html)
 
