@@ -15,8 +15,8 @@
 
 ## 2023
 
-- shufang.org 域名续费  
-  Network Solutions $12.99（¥92.11）
+- shufang.org 域名续费至 2024/06/02  
+  2023 年 05 月 25 日，于 Network Solutions 支出 $12.99（¥92.11）
 
 - Yang Meng  
   2023 年 02 月 27 日通过支付宝捐赠 ¥50.00  
